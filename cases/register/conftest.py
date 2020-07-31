@@ -1,5 +1,5 @@
 import pytest
-from common.connet_mysql import execute_sql
+from common.connect_mysql import execute_sql
 
 
 @pytest.fixture(scope='function')

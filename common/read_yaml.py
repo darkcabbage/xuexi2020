@@ -19,8 +19,7 @@ def get_yaml_date(yml_path):
 
 
 if __name__ == '__main__':
-    curpath = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    print(curpath)
-    yml_path = os.path.join(curpath, 'cases/info/update_info.yml')
+    from setting import base_dir
+    yml_path = os.path.join(base_dir, 'test_data', 'update_info.yml')
     print(yml_path)
     get_yaml_date(yml_path)

@@ -4,20 +4,20 @@
 
 # 环境准备
 - windows
-- python3.6.0
-- pytest4.5.0
-- allure
+- python==3.6.0
 
 # 先安装requirements.txt依赖包
 > pip install -r requirements.txt
 
-# 运行用例，生成报告在 ./report
-> pytest --allure ./report/allure
+# 运行所有用例
+> pytest
 
 # 参数配置 pytest.ini
 自己标注的内容，加注释
-markers = xxx: Run xxx module cases     
+markers = info: Run info module cases
 
-命令行默认带上的参数
-addopts = -s --alluredir ./report/allure
-
+#命令行默认带上的参数
+addopts = -s
+          -m info
+          --alluredir ./report/allure
+          

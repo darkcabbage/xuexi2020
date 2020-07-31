@@ -1,6 +1,11 @@
 import requests
 import os
 import allure
+from nb_log import LogManager
+from nb_log_config import LOG_PATH
+logger = LogManager(logger_name='api').get_logger_and_add_handlers(is_add_stream_handler=True,
+                                                                   log_filename='api_log',
+                                                                   log_path=LOG_PATH)
 
 
 @allure.step("登陆")
@@ -17,7 +22,8 @@ def login(s, username='test', password='123456'):
             "password": password}
     r = s.post(url=url, json=body)
     token = (r.json()['token'])
-    print('\n' + token)
+    logger.debug('\n''token值为：{}'.format(token))
+    # print('\n' + token)
     h = {'Authorization': 'Token {}'.format(token)}
     s.headers.update(h)  # 后面请求不需要再传token
     return r.json()
@@ -31,7 +37,7 @@ def register(s, username='testadmin', password='testadmin', mail='123456@qq.com'
             'password': password,
             'mail': mail}
     r = s.post(url, json=body)
-    # print(r.text)
+    logger.debug('注册返回：{}'.format(r.json()))
     # print(r.json())
     return r
 
@@ -49,7 +55,8 @@ class UserInfo(object):
                 "age": 20,
                 "mail": "123@qq.com"}
         r = self.s.post(url=url, json=body)
-        print(r.json())
+        logger.debug('登陆返回：{}'.format(r.json()))
+        # print(r.json())
         return r.json()
 
     @allure.step("查询个人信息")
@@ -57,6 +64,7 @@ class UserInfo(object):
         url = os.environ["host"]+'/api/v1/userinfo'
         # 查询
         r = self.s.get(url)
+        logger.debug('查询返回：{}'.format(r.json()))
         return r.json()
 
 

@@ -1,6 +1,6 @@
 import pytest
 import requests
-from cases.common_function import login
+from cases.common_api.common_function import login
 import os
 
 
