@@ -1,0 +1,10 @@
+2020-07-31 17:32:09 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:25" - login - DEBUG - 
+token值为：c825e6760e470151fdc13ed789ce3037bc5024ef
+2020-07-31 17:32:09 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:58" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-07-31 17:32:09 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:58" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'F', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-07-31 17:32:10 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:40" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+
+2020-07-31 17:32:11 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:40" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+2020-07-31 17:32:11 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:40" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
+

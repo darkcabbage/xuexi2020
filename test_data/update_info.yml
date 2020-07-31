@@ -1,12 +1,7 @@
 
-
 test_info_params:
   - ['M', {'message': 'update some data!', 'code': 0}]
   - ['F', {'message': 'update some data!', 'code': 0}]
-
-
-
-
 
 test_eval_params: 'test_input1, test_input2, expected'
 

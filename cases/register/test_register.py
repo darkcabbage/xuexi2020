@@ -1,5 +1,5 @@
 import pytest
-from cases.common_function import register
+from cases.common_api.common_function import register
 import allure
 
 

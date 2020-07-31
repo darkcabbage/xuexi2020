@@ -1,10 +1,10 @@
 import pytest
-from cases.common_function import UserInfo
+from cases.common_api.common_function import UserInfo
 from common.read_yaml import get_yaml_date
 import os
 import allure
-cur_path = os.path.dirname(os.path.realpath(__file__))
-yml_path = os.path.join(cur_path, 'update_info.yml')
+from setting import base_dir
+yml_path = os.path.join(base_dir, 'test_data', 'update_info.yml')
 data = get_yaml_date(yml_path)
 print(data['test_info_params'])
 
@@ -52,8 +52,8 @@ def test_1():
 
 @allure.feature("个人信息模块")
 @allure.title("自定义mark")
-@pytest.mark.xxx                # xxx标签，名称任意取，>pytest -m xxx 可以执行打上标签的用例
+@pytest.mark.info                # info标签，名称任意取，>pytest -m info 可以执行打上标签的用例
 def test_2(login_setup):
-    print('xxx模块：自动化用例1')
+    print('info模块：自动化用例1')
 
 
