@@ -8,3 +8,61 @@ token值为：c825e6760e470151fdc13ed789ce3037bc5024ef
 2020-07-31 17:32:11 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:40" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
 2020-07-31 17:32:11 - api - "d:\request_api\api2020_3_pro\cases\common_api\common_function.py:40" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
 
+2020-08-01 18:12:51 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:25" - login - DEBUG - 
+token值为：6305553f12af2a5e8fea9d019ab0ca61a086aeb0
+2020-08-01 18:12:51 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:58" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 18:12:51 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:67" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 18:16:18 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:26" - login - DEBUG - 
+token值为：17b52baec340e441e25d66485dade1f1292738b8
+2020-08-01 18:16:19 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:59" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 18:16:19 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:68" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 18:23:41 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:25" - login - DEBUG - 
+token值为：8119b38bab66c41dbddaa454249c6b05142748c9
+2020-08-01 18:23:42 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:58" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-01 18:23:42 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:67" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 18:29:15 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:24" - login - DEBUG - 
+token值为：55a39250df9e01e94b254450fe20c0bf0cf2b8d9
+2020-08-01 18:29:15 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 18:29:15 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:66" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 18:30:15 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:24" - login - DEBUG - 
+token值为：6d0993797fd525f991599a1b969fb994b1fe9ecb
+2020-08-01 18:30:15 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-01 18:30:15 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'F', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-01 18:30:58 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:24" - login - DEBUG - 
+token值为：201e47eb339ae4f11c5ffe89deb4338e44441eff
+2020-08-01 18:30:59 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 18:30:59 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:66" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 19:41:46 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:24" - login - DEBUG - 
+token值为：3093887c6dcf465b35783df4fe21fd6611f44fd6
+
+2020-08-01 19:41:47 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 19:41:47 - api - "D:/request_api/api2020_3_pro/cases/common_api/common_function.py:66" - get_info - DEBUG - 查询返回：{'msg': 'sucess!', 'code': 0, 'data': [{'id': 929, 'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com', 'create_time': '2020-08-01'}]}
+
+2020-08-01 19:42:25 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:24" - login - DEBUG - 
+token值为：f1b690017a497c0e219c80cbbf2f4e5248e9d06b
+2020-08-01 19:42:25 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 19:42:25 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'F', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-01 19:42:26 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+
+2020-08-01 19:42:27 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+2020-08-01 19:42:27 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
+
+2020-08-01 19:44:30 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:24" - login - DEBUG - 
+token值为：2649384fe0093642531c916cd780f93bdeeb8027
+2020-08-01 19:44:30 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-01 19:44:30 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'F', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-01 19:44:31 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+
+2020-08-01 19:44:32 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+2020-08-01 19:44:32 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
+
