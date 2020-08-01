@@ -7,7 +7,6 @@ logger = LogManager(logger_name='api').get_logger_and_add_handlers(is_add_stream
                                                                    log_filename='api_log',
                                                                    log_path=LOG_PATH)
 
-
 @allure.step("登陆")
 def login(s, username='test', password='123456'):
     '''
@@ -17,7 +16,7 @@ def login(s, username='test', password='123456'):
     :param password: 123456
     :return: s
     '''
-    url = os.environ["host"]+'/api/v1/login/'
+    url = os.environ['base_url']+'/api/v1/login/'
     body = {"username": username,
             "password": password}
     r = s.post(url=url, json=body)
@@ -32,7 +31,7 @@ def login(s, username='test', password='123456'):
 @allure.step("注册")
 def register(s, username='testadmin', password='testadmin', mail='123456@qq.com'):
     '''注册'''
-    url = os.environ["host"]+'/api/v1/register'
+    url = os.environ['base_url']+'/api/v1/register'
     body = {'username': username,
             'password': password,
             'mail': mail}
@@ -48,7 +47,7 @@ class UserInfo(object):
 
     @allure.step("修改个人信息")
     def update_info(self, name='test', sex='M'):
-        url = os.environ["host"]+'/api/v1/userinfo'
+        url = os.environ['base_url']+'/api/v1/userinfo'
         # 修改个人信息
         body = {"name": name,
                 "sex": sex,
@@ -61,7 +60,7 @@ class UserInfo(object):
 
     @allure.step("查询个人信息")
     def get_info(self):
-        url = os.environ["host"]+'/api/v1/userinfo'
+        url = os.environ['base_url']+'/api/v1/userinfo'
         # 查询
         r = self.s.get(url)
         logger.debug('查询返回：{}'.format(r.json()))
@@ -69,6 +68,7 @@ class UserInfo(object):
 
 
 if __name__ == '__main__':
+    os.environ['base_url'] = 'http://49.235.92.12:6009'
     s = requests.session()
     login(s)                      # 登陆
     info = UserInfo(s)            # 实例化

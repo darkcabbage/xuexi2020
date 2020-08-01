@@ -18,6 +18,5 @@ markers = info: Run info module cases
 
 #命令行默认带上的参数
 addopts = -s
-          -m info
           --alluredir ./report/allure
-          
+          --base-url=http://49.235.92.12:6009
