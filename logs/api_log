@@ -66,3 +66,13 @@ token值为：2649384fe0093642531c916cd780f93bdeeb8027
 2020-08-01 19:44:32 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
 2020-08-01 19:44:32 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
 
+2020-08-02 16:57:22 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:24" - login - DEBUG - 
+token值为：a659c06e976d4c6fff27973890055e103890a7c7
+2020-08-02 16:57:22 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'M', 'age': 20, 'mail': '123@qq.com'}}
+2020-08-02 16:57:22 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:57" - update_info - DEBUG - 登陆返回：{'message': 'update some data!', 'code': 0, 'data': {'name': 'test', 'sex': 'F', 'age': 20, 'mail': '123@qq.com'}}
+
+2020-08-02 16:57:23 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+
+2020-08-02 16:57:24 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 0, 'msg': '注册成功!', 'datas': {}}
+2020-08-02 16:57:24 - api - "D:\request_api\api2020_3_pro\cases\common_api\common_function.py:39" - register - DEBUG - 注册返回：{'code': 2000, 'msg': 'testadmin用户已被注册', 'datas': {}}
+
