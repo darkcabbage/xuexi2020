@@ -14,7 +14,6 @@ colorlog==4.1.0
 concurrent-log-handler==0.9.9
 cryptography==2.9.2
 cssselect==1.1.0
-Django==2.0.3
 elasticsearch==7.8.0
 fake-useragent==0.1.11
 Flask==1.0.2
@@ -23,7 +22,6 @@ HttpRunner==1.5.8
 idna==2.8
 importlib-metadata==1.6.0
 itsdangerous==1.1.0
-Jinja2==2.10
 kafka-python==1.4.6
 lxml==4.5.0
 MarkupSafe==1.1.1
